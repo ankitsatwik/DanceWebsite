@@ -5,13 +5,14 @@
     box-sizing: border-box;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-/* #navbar{
-    position: fixed;
+#navbar{
+    position: sticky;
     width: 100%;
-} */
+}
 #navbar ul{
     display: flex;
-    
+    /* position: sticky; */
+    /* display: block; */
     /* justify-content: center; */
     background-color: rgb(79, 75, 75);
     align-items: center;

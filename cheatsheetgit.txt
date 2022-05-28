@@ -5,8 +5,8 @@ git init
 git add .
 git commit -m "Initial Commit"
 git status #Just to see the status not important
-paste:- ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-tail <path to id_rsa.pub> #Add this key to github account
+paste:- ssh-keygen -t rsa -b 4096 -C "your_email@example.com" this is for private case
+tail <path to id_rsa.pub> #Add this key to github account this both up and down are for private case
 git remote add origin <ssh url.git> #ssh url of git
 git push origin master
 
